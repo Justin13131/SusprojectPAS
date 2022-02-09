@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+h1 {
+    color: var(--main);    
+}
+.carousel-inner {
+    height: 93vh;
+}
+
+.carousel-item > img {
+    height: 100vh;
+    object-fit: cover;
+}
+.navbar, .navbar-brand {
+    font-size: 2vh;
+}
+.end {
+    padding-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+li {
+    color:rgb(0, 0, 0)
+}
+ul {
+    width: 80%;
+}
+.ulist {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3%;
+}
+h1 {
+    color: rgb(210, 210, 211);
+    /* text-shadow: 0 0 10px white; */
+}
+h2 {
+    color:rgb(210, 210, 211);
+    /* text-shadow: 0 0 10px white; */
+}
+.text-center {
+    color: rgb(48, 48, 48);
+}
+div.AboutProject {
+    background-color: rgb(1, 0, 80);
+    max-width: 500px;
+    padding: 20px;
+    position:absolute;
+    margin-left:35%;
+}
+img.sustainpicture{
+    width: 360px;
+    height: 400px;
+    float: center;
+    padding-right: 15px;
+}
+p.white {
+    color:rgb(210, 210, 211);
+}
+div.aboutext {
+    padding: 15px;
+}
+div.sep {
+    padding: 40px;
+    background-color:white;
+}
