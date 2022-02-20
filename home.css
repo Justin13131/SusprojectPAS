@@ -4,11 +4,16 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
+body{
+    background-color:#FBFCFB;
+}
 h1 {
     color: var(--main);    
 }
 .carousel-inner {
     height: 85vh;
+    padding: 50px;
+    padding-top: 30px;
 }
 
 .carousel-item > img {
@@ -50,16 +55,19 @@ h2 {
 div.AboutProject {
     background-color: rgb(1, 0, 80);
     max-width: 500px;
-    padding: 20px;
-    margin-left: auto;
+    padding: 50px;
+    /* margin-left: auto; */
     margin-right: auto;
-    
+    margin-left: 50px;
+    position: relative;
+    float: left;
 }
 img.sustainpicture{
     width: 385px;
     height: 400px;
     float: center;
-    position: relative;
+    margin: 0 auto;
+    display: block;
     
 }
 p.white {
@@ -70,5 +78,25 @@ div.aboutext {
 }
 div.sep {
     padding: 40px;
-    background-color:white;
+}
+
+div.two {
+    background-color: rgb(31, 178, 236);
+    max-width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+    position: relative;
+    float: right;
+}
+
+div.three {
+    background-color: rgb(31, 178, 236);
+    max-width: 500px;
+    padding: 20px;
+    margin: 50px;
+    margin-top:0;
+    margin-bottom:0;
+    position: static;
+    float: left;
 }
