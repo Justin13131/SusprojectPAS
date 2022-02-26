@@ -1,4 +1,14 @@
+<php
+$action = $_GET["action"];
+$myText = $_POST["relies"];
+
+if($action = "save") {
+  $targetFolder = "/path/to/folder";
+  file_put_contents($targetFolder."replies.txt", $myText);
+}
+>
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -102,7 +112,7 @@
                 </select>
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:250px"></textarea>
-                <input type="submit" value="Submit">
+                <input type="submit" value="save">
               </form>
             </div>
           </div>
