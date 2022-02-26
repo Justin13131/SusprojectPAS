@@ -68,6 +68,8 @@ img.sustainpicture{
     float: center;
     margin: 0 auto;
     display: block;
+    align-items: center;
+    justify-content: center; 
     
 }
 p.white {
@@ -81,7 +83,7 @@ div.sep {
 }
 
 div.two {
-    background-color: rgb(31, 178, 236);
+    background-color: #900603;
     max-width: 500px;
     padding: 20px;
     margin-left: auto;
@@ -91,12 +93,23 @@ div.two {
 }
 
 div.three {
-    background-color: rgb(31, 178, 236);
-    max-width: 500px;
+    background-color: #466D1D;
+    max-width: 400px;
     padding: 20px;
     margin: 50px;
     margin-top:0;
     margin-bottom:0;
     position: static;
     float: left;
+}
+
+img.pasLogo {
+    top: 40%;
+    left: 45%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.intropicture {
+    position: relative;
 }
