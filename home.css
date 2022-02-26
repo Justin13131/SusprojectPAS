@@ -61,6 +61,8 @@ div.AboutProject {
     margin-left: 50px;
     position: relative;
     float: left;
+    max-height: 1000px;
+
 }
 img.sustainpicture{
     width: 385px;
@@ -72,6 +74,8 @@ img.sustainpicture{
     justify-content: center; 
     
 }
+
+
 p.white {
     color:rgb(210, 210, 211);
 }
@@ -85,22 +89,30 @@ div.sep {
 div.two {
     background-color: #900603;
     max-width: 500px;
-    padding: 20px;
+    padding: 50px;
     margin-left: auto;
     margin-right: 50px;
     position: relative;
     float: right;
+    /* display: block; */
+    align-items: center;
+    justify-content: center; 
+    max-height: 1000px;
 }
 
 div.three {
     background-color: #466D1D;
-    max-width: 400px;
-    padding: 20px;
-    margin: 50px;
+    max-width: 500px;
+    padding: 50px;
+    margin: 170px;
     margin-top:0;
     margin-bottom:0;
     position: static;
     float: left;
+    /* display: block; */
+    max-height: 1000px;
+    align-items: center;
+    justify-content: center; 
 }
 
 img.pasLogo {
@@ -112,4 +124,10 @@ img.pasLogo {
 }
 .intropicture {
     position: relative;
+}
+
+.whitetitle {
+    color:rgb(232, 232, 238);
+    text-align: center;
+    text-size-adjust: 50;
 }
