@@ -152,8 +152,14 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  .green{
     background-color: #45a049;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: block;
   }
   
   /* Style the container/contact section */

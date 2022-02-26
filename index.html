@@ -11,6 +11,21 @@
     <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon" type="image/jpg" href="Photo/shark.jpg"/>
 </head>
+<script>
+  function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/410/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
 <body style="background-color:#FEF9F3" >
   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -103,7 +118,7 @@
                 </select>
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:250px"></textarea>
-                <input type="submit" value="Submit">
+                <input class="green"type="button" id="bt" value="Submit" onclick="saveFile()" />
               </form>
             </div>
           </div>
@@ -112,3 +127,39 @@
         
     
 </body>
+<script>
+  let saveFile = () => {
+    
+      // Get the data from each element on the form.
+    const fname = document.getElementById('txtfName');
+      const lname = document.getElementById('txtLName');
+      const country = document.getElementById('txtCountry');
+      const msg = document.getElementById('txtMessage');
+      
+      // This variable stores all the data.
+      let data = 
+          '\r First Name: ' + fname.value + ' \r\n ' + 
+          'Last Name: ' +lname.value + ' \r\n ' + 
+          'Role: ' + country.value + ' \r\n ' + 
+          'Message: ' + msg.value;
+      
+      // Convert the text to BLOB.
+      const textToBLOB = new Blob([data], { type: 'text/plain' });
+      const sFileName = 'formData.txt';	   // The file to save the data.
+
+      let newLink = document.createElement("a");
+      newLink.download = sFileName;
+
+      if (window.webkitURL != null) {
+          newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+      }
+      else {
+          newLink.href = window.URL.createObjectURL(textToBLOB);
+          newLink.style.display = "none";
+          document.body.appendChild(newLink);
+      }
+
+      newLink.click(); 
+  }
+</script>
+</html>
