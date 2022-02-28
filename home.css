@@ -136,6 +136,7 @@ img.pasLogo {
     height: 50vh;
     margin: auto;
     text-align: center;
+    margin-top: 20px;
 
     display: flex;
     flex-direction: column;
