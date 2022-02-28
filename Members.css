@@ -38,6 +38,7 @@ div.Devin {
     padding-top: 10px;
     padding: 30px;
 
+
 }
 
 div.Justin {
@@ -64,7 +65,7 @@ div.Nico {
 
     /* margin-top: 100vh; */
     padding-top: 10px;
-    margin-left: 65vw;
+    margin-left: 40vw;
     padding: 30px;
 
 }
@@ -88,4 +89,9 @@ p.title {
     font-size: 100px;
     padding-left: 50px;
     padding-top: 60vh;
+}
+
+div.subDev {
+    display: flex;
+    /* justify-content: space-between; */
 }
