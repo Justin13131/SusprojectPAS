@@ -212,4 +212,5 @@ input[type=text], select, textarea {
       justify-content: space-between;
       width: 90vw;
       margin: auto;
+      margin-bottom: 50px;
   }
