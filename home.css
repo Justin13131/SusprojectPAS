@@ -61,7 +61,7 @@ div.AboutProject {
     margin-left: 50px; */
     position: relative;
     /* float: left; */
-    max-height: 1620px;
+    /* max-height: 1620px; */
 
 }
 img.sustainpicture{
@@ -98,7 +98,7 @@ div.two {
     /* display: block; */
     align-items: center;
     justify-content: center; 
-    max-height: 1620px;
+    /* max-height: 1620px; */
 }
 
 div.three {
@@ -111,7 +111,7 @@ div.three {
     position: static;
     /* float: left; */
     /* display: block; */
-    max-height: 1620px;
+    /* max-height: 1620px; */
     align-items: center;
     justify-content: center; 
 }
