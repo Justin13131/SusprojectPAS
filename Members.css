@@ -51,7 +51,7 @@ div.Justin {
     padding-top: 10px;
     margin-bottom: 5vh;
     margin-top: 5vh;
-    margin-left: 32.5vw;
+    margin-left: 20vw;
     padding: 30px;
 
 
@@ -94,4 +94,9 @@ p.title {
 div.subDev {
     display: flex;
     /* justify-content: space-between; */
+}
+p.lsize {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
