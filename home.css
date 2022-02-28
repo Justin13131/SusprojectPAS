@@ -57,16 +57,16 @@ div.AboutProject {
     max-width: 25%;
     padding: 20px;
     /* margin-left: auto; */
-    margin-right: auto;
-    margin-left: 50px;
+    /* margin-right: auto;
+    margin-left: 50px; */
     position: relative;
-    float: left;
-    max-height: 1500px;
+    /* float: left; */
+    max-height: 1620px;
 
 }
 img.sustainpicture{
-    width: 37.2%;
-    height: 44%;
+    width: 100px;
+    height: 100px;
     float: center;
     margin: 0 auto;
     display: block;
@@ -91,27 +91,27 @@ div.two {
     background-color: #900603;
     max-width: 25%;
     padding: 25px;
-    margin-left: auto;
-    margin-right: 50px;
+    /* margin-left: auto; */
+    /* margin-right: 50px; */
     position: relative;
-    float: right;
+    /* float: right; */
     /* display: block; */
     align-items: center;
     justify-content: center; 
-    max-height: 1500px;
+    max-height: 1620px;
 }
 
 div.three {
     background-color: #466D1D;
     max-width: 30%;
     padding: 50px;
-    margin: 6.5%;
+    /* margin: 6.5%;
     margin-top:0;
-    margin-bottom:0;
+    margin-bottom:0; */
     position: static;
-    float: left;
+    /* float: left; */
     /* display: block; */
-    max-height: 1500px;
+    max-height: 1620px;
     align-items: center;
     justify-content: center; 
 }
@@ -206,4 +206,10 @@ input[type=text], select, textarea {
       position: relative;
       width: 100%;
       height: 1500px;
+  }
+  div.divide {
+      display: flex;
+      justify-content: space-between;
+      width: 90vw;
+      margin: auto;
   }
