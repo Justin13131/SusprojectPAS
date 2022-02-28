@@ -5,7 +5,7 @@
 
 }
 
-.intro2 {
+.introM {
     background-image: url("https://github.com/Justin13131/SusprojectPAS/blob/main/Photos/Members.png?raw=true");
     background-size: cover;
     background-position: center;
@@ -13,11 +13,79 @@
     width: 90vw;
     height: 80vh;
     margin: auto;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+div.threeM {
+    display: flex;
+    /* justify-content: column; */
+    flex-direction: column;
+
+    width: 90vw;
+    margin: auto;
+}
+
+div.Devin {
+    width:25vw;
+    
+
+    background-color: #6B8E23;
+
+    padding-top: 10px;
+    padding: 30px;
+
+}
+
+div.Justin {
+    width:25vw;
+    
+
+    background-color: #D73502;
+
+    /* margin-top: 50vh; */
+    padding-top: 10px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    margin-left: 32.5vw;
+    padding: 30px;
+
+
+}
+
+div.Nico {
+    width:25vw;
+    
+    
+    background-color: #3A9BDC;
+
+    /* margin-top: 100vh; */
+    padding-top: 10px;
+    margin-left: 65vw;
+    padding: 30px;
+
+}
+
+.WhiteT {
+    color:rgb(232, 232, 238);
+    text-align: center;
+}
+
+div.sep2 {
+    margin-top: 10px;
+}
+
+.white2 {
+    color: #FBFAF2;
+}
+
+p.title {
+    color: #FBFAF2;
+    font-family: verdana;
+    font-size: 100px;
+    padding-left: 50px;
+    padding-top: 60vh;
 }
