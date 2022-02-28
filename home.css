@@ -117,14 +117,41 @@ div.three {
 }
 
 img.pasLogo {
-    top: 40%;
+    /* top: 40%;
     left: 45%;
     width: 200px;
+    height: 200px; */
+    /* position: absolute; */
     height: 200px;
-    position: absolute;
+    width: 200px;
+    margin-bottom: 50px;
 }
+
+.intro {
+    background-image: url("https://github.com/Justin13131/SusprojectPAS/blob/main/Photos/PAS.jpg?raw=true");
+    background-size: cover;
+    background-position: center;
+
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .intropicture {
+    background-image: url("https://github.com/Justin13131/SusprojectPAS/blob/main/Photos/PAS.jpg?raw=true");
     position: relative;
+    height: 400px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .whitetitle {
