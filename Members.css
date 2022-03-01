@@ -30,7 +30,7 @@ div.threeM {
 }
 
 div.Devin {
-    width:25vw;
+    width:30vw;
     
 
     background-color: #6B8E23;
@@ -42,28 +42,28 @@ div.Devin {
 }
 
 div.Justin {
-    width:25vw;
+    width:35vw;
 
     background-color: #D73502;
 
     /* margin-top: 50vh; */
     padding-top: 10px;
     
-    margin-left: 20vw;
+    margin-left: 5vw;
     padding: 30px;
 
 
 }
 
 div.Nico {
-    width:25vw;
+    width:30vw;
     
     
     background-color: #3A9BDC;
 
     /* margin-top: 100vh; */
     padding-top: 10px;
-    margin-left: 40vw;
+    /* margin-left: 40vw; */
     padding: 30px;
 
 }
@@ -93,3 +93,7 @@ div.subDev {
     display: flex;
     /* justify-content: space-between; */
 }
+
+/* img.size {
+    width: 700px;
+} */
